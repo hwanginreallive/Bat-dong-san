@@ -364,7 +364,7 @@ header .logo img{
     box-sizing: border-box;
 }
 .infor--1{
-    background: url('/assets/img/background.jpg') center / cover no-repeat;
+    background: url('./assets/img/background.jpg') center / cover no-repeat;
     height: 650px;
     position: relative;
 }
