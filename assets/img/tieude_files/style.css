@@ -1,0 +1,63 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.product-title a{
+    font-weight: bold !important;
+}
+.section {
+    padding-bottom: 0px !important;
+}
+.section-slider {
+    padding-top: 0 !important;
+}
+.vina-home {
+    text-align: center;
+}
+.section-tien-ich ul.tien-ich {
+    overflow-y: scroll;
+    height: 350px;
+}
+.section-tien-ich li.tien-ich-noi-do strong {
+    color: red;
+}
+.section-giai-phap .icon-inner {
+    background: rgb(241, 25, 25);
+}
+.hot-line {
+    text-align: center;
+}
+.section-mat-bang li.active > a {
+    color: #0a2453 !important;
+    background: #fff !important;
+}
+.btn-du-an {
+    text-align: center;
+}
+.section-dang-ky i.fa.fa-phone {
+    background: #0a2453;
+    font-size: 35px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.absolute-footer {
+    display: none;
+}
+.mobile-nav .cart-icon {
+    display: none;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
