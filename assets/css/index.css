@@ -38,7 +38,7 @@ header .logo img{
     overflow: hidden;
 }
 .slider img{
-    height: 475px;
+    height: 480px;
     width:1529px;
 }
 .slider .slide{
@@ -364,7 +364,8 @@ header .logo img{
     box-sizing: border-box;
 }
 .infor--1{
-    background-image: url('/assets/img/slide1.jpg') ;
+    background-image: url('../img/background.jpg') ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
