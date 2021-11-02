@@ -87,6 +87,8 @@ header .logo img{
 
 .bottom .left{
     width: 772px;
+    border-right: 1px solid rgb(243, 241, 241);
+    padding-right: 30px;
 }
 .content .bottom .left img{
     width: 772px;
@@ -142,7 +144,7 @@ header .logo img{
 
 .bottom .right{
  width: 230px;
- padding: 0 20px 0 20px;
+ padding: 0 0 0 30px;
 }
 .bottom .right .right--top h3{
     text-transform: uppercase;
@@ -171,6 +173,7 @@ header .logo img{
     border-bottom: 1px solid rgb(243, 241, 241);
     padding: 10px 0 10px 0;
     height: 63px;
+    width: 212px;
 }
 .bottom .right .right--top .box:last-child{
     border: none;
@@ -184,7 +187,7 @@ header .logo img{
     line-height: 1.2;
     display: block;
     margin-bottom: 6px;
-    font-size: 15px;
+    font-size: 15.5px;
     font-weight: 400;
 }
 .right--bottom{
