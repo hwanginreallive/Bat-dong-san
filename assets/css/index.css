@@ -32,6 +32,10 @@ header .logo img{
     margin-left: 30px;
     cursor: pointer;
 }
+.header--list ul li a{
+    text-decoration: none;
+    color: #0a2453;
+}
 .slider{
     position: relative;
     height: 475px;
