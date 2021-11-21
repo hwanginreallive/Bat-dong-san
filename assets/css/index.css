@@ -38,7 +38,7 @@ header .logo img{
 }
 .slider{
     position: relative;
-    height: 475px;
+    /* height: 475px; */
     overflow: hidden;
 }
 .slider img{
@@ -85,7 +85,7 @@ header .logo img{
 .fact{
     text-align: center;
     font-family: "Roboto", sans-serif;
-    height: 500px;
+    /* height: 500px; */
     width: 1050px;
     margin: auto;
 }
@@ -164,7 +164,8 @@ header .logo img{
 }
 .content{
     background-color: rgb(241,241,241);
-    height: 1110px;
+    /* height: 1110px; */
+    padding-bottom: 30px;
 }
 .content__layout{
     width: 1050px;
@@ -243,7 +244,7 @@ header .logo img{
 }
 .overview{
     background-color:#0a2453;
-    height: 550px;
+    /* height: 550px; */
 }
 .overview__layout{
     width: 1050px;
@@ -363,7 +364,7 @@ header .logo img{
     line-height: 25px;
 }
 .utility .utility__bottom .bottom--right img{
-    width: 600px;
+    width: 100%;
     height: 420px;
     box-sizing: border-box;
 }
@@ -406,7 +407,7 @@ header .logo img{
 .infor--1 .infor--1__content{
     position: relative;
     text-align: center;
-    width: 1050px;
+    /* width: 1050px; */
     margin: auto;
 }
 .infor--1 .infor--1__content .button{
@@ -441,8 +442,9 @@ header .logo img{
     padding-top: 15px;
 }
 .infor--1 .infor--1__content .content--img img{ 
-    width: 1050px;
-    height: 393px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .project{
     width: 1050px;
@@ -491,7 +493,7 @@ header .logo img{
     margin-top: 50px;
 }
 .join-in .join-in__content{
-    width: 1050px;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;

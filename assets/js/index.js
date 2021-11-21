@@ -1,29 +1,13 @@
-const imgs = document.getElementById('imgs')
-const btnleft = document.getElementById('left')
-const btnright = document.getElementById('right')
+$('.fade').slick();
 
-let img = document.querySelectorAll('#imgs img')    
-let idx = 0
-// let interval  = setInterval(run,2000)
+const touchbar =() => {
+    const bar = document.querySelector(".bar")
+    const list = document.querySelector(".header--list")
+    bar.addEventListener('click',()=>{
+        list.classList.toggle('header--list-active')
+        bar.classList.toggle('bar-active')
 
-function run(){
-    idx++
-    changeImg();
+    });
+    
 }
-function changeImg(){
-    if(idx>img.length-1){
-        idx=0
-    }else if(idx<0){
-        idx = img.length-1
-    }
-    imgs.style.transform =`translateX(${ -idx*1529}px)`
-}
-
-btnleft.addEventListener('click',()=>{
-    idx--
-    changeImg();
-})
-btnright.addEventListener('click', () => {
-    idx++
-    changeImg();
-})
+touchbar();
