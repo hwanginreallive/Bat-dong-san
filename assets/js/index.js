@@ -1,6 +1,6 @@
 $('.fade').slick();
 
-const touchbar =() => {
+
     const bar = document.querySelector(".bar")
     const list = document.querySelector(".header--list")
     bar.addEventListener('click',()=>{
@@ -9,5 +9,4 @@ const touchbar =() => {
 
     });
     
-}
-touchbar();
+
